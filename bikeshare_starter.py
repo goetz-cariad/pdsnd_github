@@ -2,6 +2,9 @@ import time
 import pandas as pd
 import numpy as np
 
+# This file is just a dummy file and is incomplete.
+# It is not the scope of this project to complete the code in this file.
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
