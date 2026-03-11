@@ -7,7 +7,8 @@ import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+              'washington': 'washington.csv',
+              'los_angeles': 'los_angeles.csv' }
 
 def get_filters():
     """
@@ -124,6 +125,9 @@ def user_stats(df):
 def main():
     while True:
         city, month, day = get_filters()
+        if city == 'los_angeles':
+            print('Attention, data for Los Angeles in trial phase.\n It might be incomplete and contain errors.')
+            continue
         df = load_data(city, month, day)
 
         time_stats(df)
