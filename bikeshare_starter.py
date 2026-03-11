@@ -122,6 +122,9 @@ def user_stats(df):
 def main():
     while True:
         city, month, day = get_filters()
+        if city == 'los_angeles':
+            print('Attention, data for Los Angeles in trial phase.\n It might be incomplete and contain errors.')
+            continue
         df = load_data(city, month, day)
 
         time_stats(df)
