@@ -14,8 +14,8 @@ Focus of this project is
 
 ### Files
 - bikeshare_starter.py
-  - dummy code file
+  - dummy code file with additional comments
 
-## Acknoledgements
+## Acknowledgements
 - Credits for setting up this challenge go to the [udacity](https://www.udacity.com/) team.
 
