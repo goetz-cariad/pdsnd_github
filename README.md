@@ -1,17 +1,21 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# PDSND Github Project
 
-### Date created
-Include the date you created this project and README file.
-
-### Project Title
-Replace the Project Title
+## Date created
+March 11 2026
 
 ### Description
-Describe what your project is about and what it does
+This project is originally part of the course [udacity Programming for Data Science with Python](https://www.udacity.com/org/cariad_academy/course/programming-for-data-science-nanodegree--nd104).  
+The chapter "Introduction to Version Control" was taken as a standalone therefore the focus is only on creation and maintenance of the GitHub repository and will not include elaborate code.  
 
-### Files used
-Include the files used
+Focus of this project is 
+- The initial creation of the repository
+- Forking
+- Merging
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+### Files
+- bikeshare_starter.py
+  - dummy code file
+
+## Acknoledgements
+- Credits for setting up this challenge go to the [udacity](https://www.udacity.com/) team.
 
